@@ -58,3 +58,5 @@ async def get(id: UUID4, db_session: DatabaseDependency) -> CategoriaOut:
         )
     
     return categoria
+
+
